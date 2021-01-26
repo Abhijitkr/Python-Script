@@ -1,0 +1,17 @@
+
+h1{
+    text-align: center;
+}
+
+.file_name{
+    color: #FDDC50;
+    display: inline;
+    font-size: 20px;
+    
+}
+
+.path{
+    color: #3C78A8;
+    display: inline;
+    font-size: 20px;
+}
