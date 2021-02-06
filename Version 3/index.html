@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Search File</title>
+</head>
+<body>
+    <h1>Search Any File</h1>
+    <hr>
+    <form action="SearchFile-Abhijit.py" method="post">
+
+        <input type="text" class="formSpace" name="file_name" placeholder="Enter the File Name"></br>
+
+        <label class="formSpace" for="check">Case-Insensitive</label>
+        <input type="checkbox" class="formSpace" name="CIS" id="check" value="on" name="case">
+        </br>
+
+        <button name="input_path" class="formSpace" type="submit" value="C:\">C Drive</button>
+    
+        <button name="input_path" class="formSpace" type="submit" value="D:\">D Drive</button>
+                
+        <button name="input_path" class="formSpace" type="submit" value="E:\">E Drive</button>
+       
+        <!-- Case-Sensitive <input type="checkbox" name = "CS"  value="on" name="case"> -->
+        
+        <!-- <input type="text" name="input_path" placeholder="Enter the File Path"> -->
+        <!-- <button type="submit">Search</button> -->
+    </form>
+</body>
+</html>

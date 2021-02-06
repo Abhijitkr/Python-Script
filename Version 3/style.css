@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+}
+
+.file_name{
+    color: #FDDC50;
+    display: inline;
+    font-size: 20px;
+    
+}
+
+.path{
+    color: #3C78A8;
+    display: inline;
+    font-size: 20px;
+}
+
+.not_found{
+    color: red;
+}
+
+form{
+    text-align: center;
+    padding: 5px;
+}
+
+input[type=text]{
+    text-align: center;
+    width: 20em;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.formSpace{
+    margin-bottom: 15px;
+}
+
+label, button{
+    font-size: 20px;
+}
